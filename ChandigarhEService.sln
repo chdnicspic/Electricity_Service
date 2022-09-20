@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1831
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ChandigarhEService_org", ".", "{3521C17C-1223-44D0-8C8C-61053BDAEAEC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{6b8714f4-fcf4-4e16-840e-86241afc2853}|InterfaceCLS.dll;{1289b569-0bfa-4a1d-94b2-0d007f508d32}|BLL.dll;{e9fb8a86-1c9c-4fa3-aade-b2df2df54042}|DAL.dll;{88f6d02a-87c3-460c-9669-0e3beef28d78}|VALIDATION.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55464"
+		Debug.AspNetCompiler.PhysicalPath = "..\ChandigarhEServiceNewTemp15082022\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55464\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55464"
+		Release.AspNetCompiler.PhysicalPath = "..\ChandigarhEServiceNewTemp15082022\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55464\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55464"
+		SlnRelativePath = "..\ChandigarhEServiceNewTemp15082022\"
+		StartServerOnDebug = "false"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "InterfaceCLS", "InterfaceCLS\InterfaceCLS.vbproj", "{6B8714F4-FCF4-4E16-840E-86241AFC2853}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VALIDATION", "VALIDATION\VALIDATION.vbproj", "{88F6D02A-87C3-460C-9669-0E3BEEF28D78}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DAL", "DAL\DAL.vbproj", "{E9FB8A86-1C9C-4FA3-AADE-B2DF2DF54042}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BLL", "BLL\BLL.vbproj", "{1289B569-0BFA-4A1D-94B2-0D007F508D32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3521C17C-1223-44D0-8C8C-61053BDAEAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3521C17C-1223-44D0-8C8C-61053BDAEAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3521C17C-1223-44D0-8C8C-61053BDAEAEC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3521C17C-1223-44D0-8C8C-61053BDAEAEC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6B8714F4-FCF4-4E16-840E-86241AFC2853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8714F4-FCF4-4E16-840E-86241AFC2853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8714F4-FCF4-4E16-840E-86241AFC2853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8714F4-FCF4-4E16-840E-86241AFC2853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F6D02A-87C3-460C-9669-0E3BEEF28D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F6D02A-87C3-460C-9669-0E3BEEF28D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F6D02A-87C3-460C-9669-0E3BEEF28D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F6D02A-87C3-460C-9669-0E3BEEF28D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9FB8A86-1C9C-4FA3-AADE-B2DF2DF54042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9FB8A86-1C9C-4FA3-AADE-B2DF2DF54042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9FB8A86-1C9C-4FA3-AADE-B2DF2DF54042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9FB8A86-1C9C-4FA3-AADE-B2DF2DF54042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1289B569-0BFA-4A1D-94B2-0D007F508D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1289B569-0BFA-4A1D-94B2-0D007F508D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1289B569-0BFA-4A1D-94B2-0D007F508D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1289B569-0BFA-4A1D-94B2-0D007F508D32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75D4B4E9-23D7-4431-A7EB-CF1637F89941}
+	EndGlobalSection
+EndGlobal
